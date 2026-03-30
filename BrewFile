@@ -14,14 +14,20 @@ brew "readline"
 brew "ruby-install"
 brew "tmux"
 brew "topgrade"
+cask "bitwarden"
+cask "calibre"
+cask "firefox"
 cask "ghostty"
 cask "gimp"
 cask "keepingyouawake"
 cask "maccy"
 cask "pearcleaner"
 cask "sol"
+cask "sublime-text"
 cask "thaw"
-mas "Bitwarden", id: 1352778147
+cask "the-unarchiver"
+cask "transmission"
+cask "visual-studio-code"
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Kindle", id: 302584613
@@ -30,5 +36,6 @@ mas "Pages", id: 409201541
 mas "Perplexity", id: 6714467650
 mas "SimpleLogin", id: 1494051017
 mas "TestFlight", id: 899247664
-mas "The Unarchiver", id: 425424353
 mas "uBlock Origin Lite", id: 6745342698
+vscode "eliostruyf.vscode-front-matter"
+vscode "github.copilot-chat"

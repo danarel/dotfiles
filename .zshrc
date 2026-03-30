@@ -99,7 +99,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
 export PATH=/opt/homebrew/bin:$PATH
+
 alias sshdanarel='ssh danarel@205.196.210.190'
 alias vi='vim'
 alias arelpush='hugo && git push && rsync -a public/* danarel@205.196.210.190:danarel.com/'
@@ -110,3 +112,5 @@ chruby ruby-3.1.3
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+source $HOME/.zshenv
+
