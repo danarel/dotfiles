@@ -104,7 +104,7 @@ export PATH=/opt/homebrew/bin:$PATH
 
 alias sshdanarel='ssh danarel@205.196.210.190'
 alias vi='vim'
-alias arelpush='hugo && git push && rsync -a public/* danarel@205.196.210.190:danarel.com/'
+alias arelpush='hugo && git push  && rsync --exclude '.DS_Store' -avz public/ danarel@205.196.210.190:danarel.com/'
 source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
 source /opt/homebrew/opt/chruby/share/chruby/auto.sh
 chruby ruby-3.1.3
