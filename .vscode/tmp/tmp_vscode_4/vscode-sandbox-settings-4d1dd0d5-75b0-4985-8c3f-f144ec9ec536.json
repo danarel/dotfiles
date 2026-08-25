@@ -1,0 +1,32 @@
+{
+	"network": {
+		"allowedDomains": [],
+		"deniedDomains": [],
+		"enabled": false
+	},
+	"filesystem": {
+		"denyRead": [
+			"/Users/danarel/.vscode/tmp/tmp_vscode_4/vscode-sandbox-settings-4d1dd0d5-75b0-4985-8c3f-f144ec9ec536.json",
+			"/Users/danarel/.dotfiles/.vscode/tmp/tmp_vscode_4/vscode-sandbox-settings-4d1dd0d5-75b0-4985-8c3f-f144ec9ec536.json",
+			"/Users/danarel"
+		],
+		"allowRead": [
+			"/Applications/Visual Studio Code.app/Contents/Resources/app",
+			"/Applications/Visual Studio Code.app/Contents/MacOS/Code",
+			"/Applications/Visual Studio Code.app/Contents/MacOS",
+			"/Users/danarel/Library/Application Support/Code/User/workspaceStorage/c3c234b6b8e0b3271516b4f0cad3f596",
+			"/Users/danarel/Sites/danarel.com",
+			"/Users/danarel/.vscode/tmp/tmp_vscode_4",
+			"/Users/danarel/.dotfiles/.vscode/tmp/tmp_vscode_4"
+		],
+		"allowWrite": [
+			"/Users/danarel/Sites/danarel.com",
+			"/Users/danarel/.vscode/tmp/tmp_vscode_4",
+			"/Users/danarel/.dotfiles/.vscode/tmp/tmp_vscode_4",
+			"/Users/danarel/Library/Application Support/Code/User/workspaceStorage/c3c234b6b8e0b3271516b4f0cad3f596"
+		],
+		"denyWrite": []
+	},
+	"enableWeakerNestedSandbox": false,
+	"allowPty": true
+}

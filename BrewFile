@@ -1,39 +1,76 @@
+# Tool for generating GNU Standards-compliant Makefiles
 brew "automake"
+# Parser generator
 brew "bison"
+# Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
+# Ruby environment tool
 brew "chruby"
+# Like neofetch, but much faster because written mostly in C
 brew "fastfetch"
+# GNU database manager
 brew "gdbm"
+# Distributed revision control system
 brew "git"
+# Configurable static site generator
 brew "hugo"
+# Portable Foreign Function Interface library
 brew "libffi"
+# YAML Parser
 brew "libyaml"
+# Mac App Store command-line interface
 brew "mas"
+# Cryptography and SSL/TLS Toolkit
 brew "openssl@1.1"
+# Library for command-line editing
 brew "readline"
+# Install Ruby, JRuby, Rubinius, TruffleRuby, or mruby
 brew "ruby-install"
+# Terminal multiplexer
 brew "tmux"
+# Upgrade all the things
 brew "topgrade"
+# Application uninstaller
 cask "appcleaner"
+# Desktop password and login vault
 cask "bitwarden"
+# E-books management software
 cask "calibre"
+# Anthropic's official Claude AI desktop app
 cask "claude"
+# Web browser
 cask "firefox"
+# Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
+# Free and open-source image editor
 cask "gimp"
+# Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
+# Window manager
 cask "loop"
+# Clipboard manager
 cask "maccy"
+# Free and open-source RSS reader
 cask "netnewswire"
+# App to write, plan, collaborate, and get organised
 cask "notion"
+# Utility to uninstall apps and remove leftover files from old/uninstalled apps
 cask "pearcleaner"
+# Client for Proton Drive
 cask "proton-drive"
+# Launcher & command palette
 cask "sol"
+# Text editor for code, markup and prose
 cask "sublime-text"
+# Menu bar manager
 cask "thaw"
+# Unpacks archive files
 cask "the-unarchiver"
+# Open-source BitTorrent client
 cask "transmission"
+# Open-source code editor
 cask "visual-studio-code"
+# Video communication and virtual meeting platform
 cask "zoom"
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
@@ -44,5 +81,5 @@ mas "SimpleLogin", id: 1494051017
 mas "TestFlight", id: 899247664
 mas "wBlock", id: 6746388723
 vscode "eliostruyf.vscode-front-matter"
-vscode "github.copilot-chat"
+vscode "github.vscode-github-actions"
 npm "corepack"
