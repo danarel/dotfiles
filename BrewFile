@@ -44,6 +44,8 @@ cask "firefox"
 cask "ghostty"
 # Free and open-source image editor
 cask "gimp"
+# Homebrew's official GUI
+cask "homebrew-app"
 # Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
 # Window manager
